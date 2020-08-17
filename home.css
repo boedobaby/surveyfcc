@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Shadows+Into+Light&display=swap');
+
+::root{
+  --marroncito: #e3dfc8;
+  --crema: #f5f1da;
+  --verde: #96bb7c;
+  --amarillo: #eebb4d;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+main{
+  width: 100%;
+  }
+
+
+h1{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 4rem;
+  color: #222831;
+  text-align: center;
+  margin: 0;
+}
+
+
+p{
+  font-family:  'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+textarea{
+  
+}
+input,
+textarea,
+select{
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.group{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom:0.5rem;
+}
+
+#container{
+  background-color: #f5f1da;
+  text-align: center; 
+  background-image: url(https://cdn.hipwallpaper.com/i/64/10/lF1Txg.jpg)
+
+}
+
+#questions{
+  max-width: 45em;
+  margin: 0 auto;
+  background-color: #96bb7c;
+  border-radius: 2.5%;
+  opacity: 0.85 
+}
+#description{
+  color: #222831;
+  font-size: 1.25rem;
+}
+
+#submit{
+  
+}
