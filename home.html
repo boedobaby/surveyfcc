@@ -1,0 +1,98 @@
+<!DOCTYPE html5>
+<html>
+  
+  <div id="container">
+  
+  <header id="header">
+    <h1 id="title">Triciclo Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve our service</p>
+  </header>
+  
+    <div id="questions">
+  <main>
+    <form id="survey-form">
+      
+      <div class="group">
+        <label id="name-label" for="name"><p>Name</p></label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+      
+      
+      <div class="group">
+        <label id="email-label" for="email"><p>Email</p></label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+      
+      
+      <div class="group">
+        <label id="number-label" for="number"><p>Age (Optional)</p></label>
+        <input type="number" id="number" min="10" max="99" placeholder="Age">
+      </div>
+      
+      
+      <div class="group">
+        <label><p>How did you get to know Triciclo?</p></label>
+          <select id="dropdown" name="know" required>
+            <option disabled selected value>Select</option>
+            <option value="social-network">Social Networks</option>
+ <option value="advertising">Advertising</option>
+            <option value="recommendation">Recommendation</option>
+            <option value="other">Other</option>
+            </select>
+      </div>
+          
+          
+          <div class="group">
+            <label id="other-label" for="other"><p>If you selected "Other", please specify how:</p>
+            </label>
+            <input type="text" id="other" placeholder="...">
+          </div>
+          
+          
+          <div class=group>
+            <p>Would you recommend Triciclo to a friend?</p>
+            <label for="definitely">
+              <input type="radio" id="definitely" name="rb-group" value="definitely">Definitely
+            </label>
+            <label for="maybe">
+              <input type="radio" id="maybe" name="rb-group" value="maybe">Maybe
+            </label>
+            <label for="not-sure">
+              <input type="radio" id="not-sure" name="rb-group" value="not-sure">Not sure
+            </label>
+          </div>
+          
+          
+        <div class=group>
+          <p>What do you like about Triciclo?</p>
+            <label for="ecofriendly">
+              <input type="checkbox" id="ecofriendly" name="cb-group" value="ecofriendly">Eco-friendly
+            </label>
+            <label for="aesthetic">
+              <input type="checkbox" id="aesthetic" name="cb-group" value="aesthetic">Aesthetic
+            </label>
+            <label for="prices">
+              <input type="checkbox" id="prices" name="rb-group" value="prices">Prices
+            </label>
+          <label for="convenience">
+              <input type="checkbox" id="convenience" name="rb-group" value="convenience">Convenience
+            </label>
+          </div>
+          
+          
+          <div class="group">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" name="comment" placeholder="Enter your suggestion here..."></textarea>
+          </div>
+          
+          
+          <div class="group">
+            <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+          </div>
+    </form>
+        </main>
+  </div>
+      </div>
+</html>
